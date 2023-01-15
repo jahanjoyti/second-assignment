@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+
+  }
+  .banner{
+    width: 100%;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+  }
+  .container {
+    padding: 60px 230px;
+    width: 100%;
+    
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+  .nav-head{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+  }
+  ul{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+  }
+  /*..... banner section start....... */
+
+  /*banner first section start*/
+  .banner-first-section{
+    position: absolute;
+    width: 862px;
+    height: 225px;
+    left: 529px;
+    top: 205px;
+    text-align: center;
+    
+  }
+  .banner-first-title,.banner-second-title{
+    
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+
+  }
+  .banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 20px;
+
+  }
+  .btn-primary{
+    margin-top: 33px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+
+    
+  }
+  /*banner first section end*/
+
+   /* banner second section start */
+
+  .banner-second-section{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 240px;
+    top: 577px;
+   
+  }
+  /* banner second section end */
+
+  /*..... banner section end....... */
+
+  .body-first-section{
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    padding: 100px 300px;
+  }
+  .image-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    
+  }
+  .image-section > img {
+    height: 100%;
+    width: 100%;
+  }
+  .text-section{
+    width: 537px;
+    height: 304px;
+    
+  }
+  strong{
+    font-weight: 500;
+    font-size: 45px;
+    color: #131313
+    ;
+  }
+  .text-first-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+  }
+  .text-second-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #FF900E;
+  }
+  .text-detail{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-top: 24px;
+  }
+  
+  
+
+
+
+  
