@@ -245,26 +245,18 @@ padding: 65px 40px;
 .box-no{
   
   font-weight: 600;
-font-size: 45px;
-line-height: 53px;
-/* identical to box height */
-
-text-align: center;
-
-/* Dark 02 */
-
-color: #424242;}
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  color: #424242;
+}
 .box-text{
   width: 169px;
-height: 23px;
+  height: 23px;
   font-weight: 600;
-font-size: 20px;
-line-height: 23px;
-
-/* Dark 03 */
-
-color: #727272;
-
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
 
 }
 
@@ -273,33 +265,25 @@ color: #727272;
 .forth-text-title{
   width: 100%;
   height: 53px;
- 
   padding: 90px 700px;
-
-font-weight: 700;
-font-size: 45px;
-line-height: 53px;
-color: #131313;
-text-align: center;
-margin-top: 2px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  text-align: center;
+  margin-top: 2px;
 }
 
 .text-detail-forth{
-
-
-width: 100%;
-height: 52px;
-
-padding: 5px 700px;
-
-
-
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #727272;
-margin-bottom: 80px;
+    width: 100%;
+    height: 52px;
+    padding: 5px 700px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 80px;
 
 }
 .logo-container {
@@ -309,19 +293,41 @@ margin-bottom: 80px;
 }
 footer{
 
-width: 1440px;
-height: 100px;
-margin: 130px 240px;
-padding: 40px 410px;
+  width: 1440px;
+  height: 100px;
+  margin: 130px 240px;
+  padding: 40px 410px;
 
-background: #FFF4E7;
-border-radius: 8px;
+  background: #FFF4E7;
+  border-radius: 8px;
 }
 #verticalLine {
   border-left: thick solid #ff0000;
-
-  
 }
+
+@media only screen and (max-width: 576px) {
+ .image-section{
+  grid-template-columns: repeat(1, 1fr);}
+ 
+  .text-detail-second, .box-description, .text-detail-third{
+    justify-content: center;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  .body-second-section{
+    flex-direction: column;
+  }
+  .logo-container{
+    flex-direction: column;
+    gap: 50px;
+    
+  }
+  }
+
 
 
   
